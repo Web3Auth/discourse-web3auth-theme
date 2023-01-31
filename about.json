@@ -1,0 +1,28 @@
+{
+  "name": "Web3Auth",
+  "about_url": "https://github.com/Web3Auth/discourse-web3auth-theme",
+  "license_url": "https://github.com/Web3Auth/discourse-web3auth-theme/blob/main/LICENSE",
+  "color_schemes": {
+    "web3auth-light": {
+      "primary": "111928",
+      "secondary": "FFFFFF",
+      "tertiary": "1C64F2",
+      "header_background": "FFFFFF",
+      "header_primary": "111928",
+      "highlight": "1C64F2"
+    },
+    "web3auth-dark": {
+      "primary": "F9FAFB",
+      "secondary": "1F2A37",
+      "tertiary": "A4CAFE",
+      "header_background": "1F2A37",
+      "header_primary": "F9FAFB",
+      "highlight": "1C64F2"
+    }
+  },
+  "components": [
+    "https://github.com/discourse/discourse-custom-header-links",
+    "https://github.com/discourse/discourse-showcased-categories.git",
+    "https://github.com/web3auth/web3auth-discourse-search-banner.git"
+  ]
+}

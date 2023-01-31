@@ -1,0 +1,13 @@
+@mixin web3auth-card-bg {
+  background: var(--secondary);
+
+  @media (prefers-color-scheme: light) {
+    background: var(--header_background);
+  }
+}
+
+:root {
+  --web3auth-border-radius: 8px;
+  --web3auth-hover-shadow: 4px 4px var(--tertiary-high);
+  --d-border-radius: 8px;
+}
