@@ -16,6 +16,10 @@
   }
 }
 
+.topic-list-main-link a.title, .topic-list .main-link a.title, .latest-topic-list-item .main-link a.title {
+  font-weight: 600;
+}
+
 body.has-sidebar-page {
   #main-outlet-wrapper {
     padding-left: 8px;
