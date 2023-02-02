@@ -116,8 +116,12 @@ body {
 
 
 .custom-homepage-columns .topic-list .topic-list-body {
-  border-radius: --var(--web3auth-border-radius);
+  border-radius: var(--web3auth-border-radius);
   display: block;
+}
+
+.custom-homepage-columns .topic-list .topic-list-body tr {
+  border-bottom: var(--primary-very-low) 1px solid;
 }
 
 .custom-homepage-columns .col .btn-more {
@@ -313,7 +317,7 @@ tr {
   margin-top: 16px;
   padding-top: 8px;
   clear: both;
-  border-top: 1px solid var(--tertiary-low);
+  border-top: 1px solid var(--primary-low);
 }
 
 .latest-topic-list .table-heading {
@@ -373,13 +377,13 @@ tr {
 }
 
 .custom-homepage-columns .topic-list .topic-list-item:nth-child(odd) {
-  background: var(--primary-very-low);
-  border-radius: var(--web3auth-border-radius);
+  background: var(--secondary);
+  border-radius: 0;
 }
 
 .custom-homepage-columns .topic-list .topic-list-item:nth-child(even) {
-  background: var(--primary-very-low);
-  border-radius: var(--web3auth-border-radius);
+  background: var(--secondary);
+  border-radius: 0;
 }
 
 #create-topic {
