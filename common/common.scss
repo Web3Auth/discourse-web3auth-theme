@@ -350,13 +350,13 @@ tr {
 .latest-topic-list-item.visited,
 .category-topic-link.visited {
   border-radius: var(--web3auth-border-radius);
-  background: var(--primary-very-low);
 }
 
 .topic-list-item:hover,
 .latest-topic-list-item:hover,
 .category-topic-link:hover {
   border-radius: var(--web3auth-border-radius);
+  background: var(--primary-very-low);
 }
 
 
