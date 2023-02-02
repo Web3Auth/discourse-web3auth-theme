@@ -2,9 +2,6 @@
   "name": "Web3Auth",
   "about_url": "https://github.com/Web3Auth/discourse-web3auth-theme",
   "license_url": "https://github.com/Web3Auth/discourse-web3auth-theme/blob/main/LICENSE",
-  "assets": {
-    "search": "assets/search.svg"
-  },
   "color_schemes": {
     "web3auth-light": {
       "primary": "111928",
