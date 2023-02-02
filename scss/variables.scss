@@ -10,4 +10,11 @@
   --web3auth-border-radius: 8px;
   --web3auth-hover-shadow: 4px 4px var(--tertiary-high);
   --d-border-radius: 8px;
+  --background-base: var(--primary-very-low);
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --background-base: #111928;
+  }
 }

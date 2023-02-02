@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: var(--highlight-bg);
+  background-color: var(--background-base);
 }
 
 body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
