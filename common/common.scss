@@ -369,11 +369,13 @@ tr {
 }
 
 .custom-homepage-columns .topic-list .topic-list-item:nth-child(odd) {
-  background: var(--header_background);
+  background: var(--primary-very-low);
+  border-radius: var(--web3auth-border-radius);
 }
 
 .custom-homepage-columns .topic-list .topic-list-item:nth-child(even) {
-  background: var(--header_background);
+  background: var(--primary-very-low);
+  border-radius: var(--web3auth-border-radius);
 }
 
 #create-topic {
