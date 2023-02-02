@@ -661,12 +661,21 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
   }
 }
 
-.admin-customize .themes-list-container {
+.themes-list-container {
+  border-radius: var(--web3auth-border-radius);
+  margin-top: 2px;
+}
+
+nav {
   border-radius: var(--web3auth-border-radius);
 }
 
-.admin-controls nav {
-  border-radius: var(--web3auth-border-radius);
+.themes-list-header .tab {
+  width: 50%;
+}
+
+.themes-list-header {
+  display: grid;
 }
 
 .topic-map {
