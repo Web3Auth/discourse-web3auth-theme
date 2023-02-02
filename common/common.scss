@@ -110,6 +110,10 @@ body {
   height: auto;
 }
 
+.topic-list .topic-item-stats {
+  flex-direction: column;
+}
+
 
 .custom-homepage-columns .topic-list .topic-list-body {
   border-radius: --var(--web3auth-border-radius);
@@ -723,4 +727,15 @@ aside.quote blockquote {
 
 textarea {
   border-radius: var(--web3auth-border-radius);
+}
+
+.category-list-item.category {
+  background: var(--header_background);
+  border-radius: var(--web3auth-border-radius);
+  padding-right: 5px;
+  padding-left: 2.5px;
+}
+
+tr.category-topic-link {
+  border: none;
 }
