@@ -5,7 +5,7 @@
     margin: 0.8em 0 50px;
     background-color: var(--secondary);
     border-radius: 1em;
-    top: calc(var(--header-offset));
+    top: calc(var(--header-offset) + 30px);
     height: calc(100vh - (var(--header-offset) + 80px));
   }
   .sidebar-footer-wrapper {
