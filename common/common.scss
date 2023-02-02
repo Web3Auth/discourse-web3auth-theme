@@ -150,9 +150,9 @@ body {
 
 .navigation-categories .search-banner {
   border-radius: var(--web3auth-border-radius);
-  height: 350px;
+  height: 250px;
   box-sizing: border-box;
-  padding: 2.5em 0 3em;
+  padding: 0.5em 0 1em;
   margin: 1em auto;
   max-width: 1110px;
 }
@@ -349,15 +349,21 @@ tr {
 .topic-list-item.visited,
 .latest-topic-list-item.visited,
 .category-topic-link.visited {
-  background: var(--primary-very-low);
   border-radius: var(--web3auth-border-radius);
-  border: none;
+  background: var(--primary-very-low);
 }
+
+.topic-list-item:hover,
+.latest-topic-list-item:hover,
+.category-topic-link:hover {
+  border-radius: var(--web3auth-border-radius);
+}
+
 
 .topic-list-item.visited .topic-list-data a.title:not(.badge-notification),
 .latest-topic-list-item.visited a.title:not(.badge-notification),
 .category-topic-link.visited a.title:not(.badge-notification) {
-  color: var(--primary);
+  color: var(--header_primary-high);
 }
 
 #create-topic {
