@@ -346,6 +346,12 @@ tr {
   margin: 0px 2px;
 }
 
+.topic-list-item,
+.latest-topic-list-item,
+.category-topic-link {
+  margin-bottom: 2px;
+}
+
 .topic-list-item.visited,
 .latest-topic-list-item.visited,
 .category-topic-link.visited {
