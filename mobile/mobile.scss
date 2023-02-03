@@ -1,25 +1,6 @@
-@import "variables";
-
 .navigation-categories {
   .search-banner {
     display: none;
   }
 }
 
-body {
-  background-color: var(--hljs-bg);
-}
-
-body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
-  border-radius: var(--web3auth-border-radius);
-  padding: 2em;
-  @include web3auth-card-bg;
-  border-top: 8px solid $tertiary;
-  margin-top: 0.8em;
-}
-
-.boxed {
-  &.white {
-    @include web3auth-card-bg;
-  }
-}
