@@ -22,6 +22,12 @@
       "hljs-bg": "111928"
     }
   },
+  "assets": {
+    "menu-icon": "/assets/menu.svg",
+    "search-icon": "/assets/search.svg",
+    "dark-mode-toggle-icon": "/assets/dark-mode-toggle.svg",
+    "light-mode-toggle-icon": "/assets/light-mode-toggle.svg"
+ },
   "components": [
     "https://github.com/discourse/discourse-custom-header-links",
     "https://github.com/Web3Auth/web3auth-discourse-showcased-categories",
