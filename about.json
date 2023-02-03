@@ -24,7 +24,7 @@
   },
   "components": [
     "https://github.com/discourse/discourse-custom-header-links",
-    "https://github.com/Web3Auth/web3auth-discourse-showcased-categoriest",
+    "https://github.com/Web3Auth/web3auth-discourse-showcased-categories",
     "https://github.com/web3auth/web3auth-discourse-search-banner.git"
   ]
 }
