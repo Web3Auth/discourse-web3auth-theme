@@ -6,8 +6,12 @@
   }
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 :root {
   --web3auth-border-radius: 8px;
   --web3auth-hover-shadow: 4px 4px var(--tertiary-high);
   --d-border-radius: 8px;
+  --font-family: Inter, sans-serif;
+  --heading-font-family: Inter, sans-serif;
 }
