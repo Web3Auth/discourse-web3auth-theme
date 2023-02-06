@@ -10,7 +10,8 @@
       "header_background": "FFFFFF",
       "header_primary": "111928",
       "highlight": "1C64F2",
-      "hljs-bg": "F9FAFB"
+      "hljs-bg": "F9FAFB",
+      "quaternary": "1C64F2"
     },
     "web3auth-dark": {
       "primary": "F9FAFB",
@@ -19,7 +20,8 @@
       "header_background": "1F2A37",
       "header_primary": "F9FAFB",
       "highlight": "1C64F2",
-      "hljs-bg": "111928"
+      "hljs-bg": "111928",
+      "quaternary": "A4CAFE"
     }
   },
   "components": [
