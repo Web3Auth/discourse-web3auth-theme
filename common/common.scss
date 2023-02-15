@@ -102,7 +102,7 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
 
       &:hover {
         color: var(--secondary);
-        background: var(--tertiary-hover);
+        background: var(--primary-low);
       }
     }
   }
@@ -343,6 +343,26 @@ tr {
   margin-bottom: 2px;
 }
 
+.category-list tbody .category h3 {
+  font-size: var(--font-up-1);
+}
+
+.user-menu.revamped .tabs-list .btn.active {
+  background-color: var(--primary-low);
+}
+
+.user-menu.revamped .tabs-list .btn:hover {
+  background-color: var(--primary-low);
+}
+
+
+.admin-tickets .tickets-filters .filter span {
+  padding: 8px 12px;
+  color: var(--primary);
+  background-color: var(--primary-low);
+  border-radius: var(--web3auth-border-radius);
+}
+
 .discourse-tags .discourse-tag.simple:not(:last-child):after,
 .list-tags .discourse-tag.simple:not(:last-child):after,
 .search-category .discourse-tag.simple:not(:last-child):after {
@@ -352,7 +372,7 @@ tr {
 
 .discourse-tags .discourse-tag {
   padding: 0px 8px;
-  background: var(--tertiary-low);
+  background: var(--primary-low);
   border-radius: var(--web3auth-border-radius);
   margin: 2px 2px;
 }
@@ -520,21 +540,21 @@ tr {
 
   &:hover {
     color: var(--secondary);
-    background: var(--tertiary-hover);
-    border: 1px solid var(--tertiary-hover);
+    background: var(--primary-low);
+    border: 1px solid var(--primary-low);
     border-radius: var(--web3auth-border-radius);
   }
 }
 
 .discourse-no-touch .btn:hover .d-icon,
 .discourse-no-touch .btn.btn-hover .d-icon {
-  color: var(--tertiary-hover);
+  color: var(--primary-low);
 }
 
 .discourse-no-touch .btn:hover,
 .discourse-no-touch .btn.btn-hover {
-  color: var(--secondary);
-  background: var(--tertiary-hover);
+  color: var(--primary);
+  background: var(--primary-low);
   border-radius: var(--web3auth-border-radius);
 
   .fa {
@@ -585,6 +605,11 @@ tr {
   }
 }
 
+.sidebar-footer-wrapper .sidebar-footer-actions-button.btn .d-icon {
+  font-size: 1em;
+  color: var(--primary-low-mid)
+}
+
 .user-menu .quick-access-panel li:hover {
   background-color: var(--tertiary-low);
 }
@@ -603,6 +628,10 @@ a:hover {
 
 .select-kit.single-select.dropdown-select-box .select-kit-header {
   display: none;
+}
+
+.custom-header-links .headerLink a {
+  font-weight: 500;
 }
 
 #reply-control .reply-to .composer-action-title .action-title {
@@ -629,6 +658,13 @@ a:hover {
 .custom-search-banner-wrap p {
   color: var(--primary-very-low);
 }
+
+@media screen and (max-width: 768px) {
+  .custom-search-banner-wrap {
+    padding: 1em 16px 2em;
+  }
+}
+
 
 .btn[href] {
   color: var(--secondary);
