@@ -802,3 +802,13 @@ tr.category-topic-link {
 .login-button .d-button-label {
   text-transform: uppercase;
 }
+
+button#new-create-topic {
+  padding: 6px 10px;
+  margin: 0px 0px 0px 8px;
+  border: none;
+}
+
+.login-button svg, button#new-create-topic svg {
+  color: var(--seconday);
+}
