@@ -794,3 +794,11 @@ tr.category-topic-link {
 #main-outlet-wrapper #main-outlet {
   margin-top: 30px;
 }
+
+.login-button .d-button-label:after {
+  content: " to post a New Topic";
+}
+
+.login-button .d-button-label {
+  text-transform: uppercase;
+}
